@@ -1,0 +1,9 @@
+name: yolo26-osnet-vlm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - git
+  - ffmpeg
+  - curl
