@@ -1,0 +1,41 @@
+# Downloaded checkpoints and generated training outputs
+/weights/*
+!/weights/download_weights.sh
+*.pt
+*.pth
+*.pth.tar*
+*.ckpt
+*.onnx
+/logs/
+/runs/
+
+# Datasets, private Drive clips, and generated videos
+/datasets/
+/data/
+/winf_DataSet/
+/data_*.MOV
+/data_*.mov
+/data_*.mp4
+*.MOV
+*.mov
+*.mp4
+*.avi
+*.mkv
+
+# Locally cloned upstream dependencies and generated research documents
+/third_party/
+/project_page/
+/docs/
+/reports/
+/research_vlm_osnet_one_slide.pptx
+*.pptx
+*.pdf
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.env
+.DS_Store
+.vscode/
